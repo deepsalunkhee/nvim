@@ -6,7 +6,7 @@ local keymap = vim.keymap.set
 local opts = { noremap = true, silent = true }
 
 -- File explorer
-keymap("n", "<leader>e", ":Explore<CR>", opts)
+keymap("n", "<leader>e", ":NvimTreeToggle<CR>", opts)
 
 -- Better window navigation
 keymap("n", "<C-h>", "<C-w>h", opts)
